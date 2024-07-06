@@ -8,3 +8,34 @@ tipe data sql
 tipe data numeric
 tipe data date & time
 tipe data string
+
+
+
+-> redudansi data:  merupakan terjadinya data dara ganda atau pengulangan data dalam berkas berkas yang berbeda.
+-> tabel
+-> field: merupakan kolom dari sebuah tabel, field memiliki ukuran type data tertentu yang menentukan bagaimana data nantinya tersimpan. (kolom)
+-> record: merupakan sebuah kumpulan nilai yang saling terkait (baris)
+-> key:  merupakan suatu field (kolom) yang dapat dijadikan kunci dalam operasi tabel. Dalam konsep database, key memiliki banyak jenis diantaranya Primary key, Foreign key, Composite key, dll.
+-> sql: bahasa pemrograman yang digunakan untuk mengakses database. (sering juga disebut query)
+
+
+-> ddl (data definition languange): merupakan perintah dasar pemrograman sql yang diperuntukkan untuk membuat sebuah struktur database baik dalam pembuatan database maupun tabel (ddl = perintah ngasih sintak), beberapa perintah yang termasuk ddl diantaranya:
+
+a. CREATE: untuk membuat database, tabel atau kolom baru
+b. ALTER: untuk mengubah struktur tabel yang sudah dibuat, misal mau ganti nama tabel, nambah kolom atau hapus kolom.
+c. RENAME: untuk merubah nama dari suatu tabel atau kolom
+d. DROP: untuk menghapus database, tabel, menghapus kolom, maupun menghapus index
+e. SHOW: untuk menampilkan database
+
+-> dml (data manipulation languange) merupakan perontah dasar yang digunakan untuk memanipulasi data yang ada di database (ngasih perintah sintak tapi untuk data yang ada pada tabel/database)
+
+a. INSERT: untuk memasukan record baru kedalam suatu tabel
+b. SELECT: untuk milih tabel dan menampilkan atau mengambil data dari tabel, bisa digunakan untuk memilih lebih dari satu tabel.
+c. UPDATE: memperbarui data pada tabel jika ada kesalahan dalam memasukan record tidak perlu menghapusnya cukup diperbarui
+d. DELETE: menghapus record dari sebuah tabel.
+
+-> dcl (data control languange): digunakan untuk mengatur hak akses user, baik terhadap database atau pada tabel dan field field yang ada, hak yang bisa diberikan terdapat dua yaitu: 
+a. GRANT: untuk memberi hak kepada user, bisa saja memberi hak 'update' saja atau memberi lebih dari 1 hak kepada user
+b. REVOKE: mencabut hak yang diberikan
+
+-> TIPE DATA SQL SECARA GARIS BESAR MEMPUNYAI 3 MACAM TIPE: NUMERIC, DATE & TIME, DAN STRING (HALAMAN 9 - 11 PADA BUKU UNTUK LEBIH JELAS)
